@@ -2,20 +2,23 @@
 // JS console check
 console.log('JS ok!');
 
-// Richiesta nome
+// Prompt nome
 const Name = prompt('Ciao! Come ti chiami?');
 
 // Log nome
 console.log(Name);
 
-// Richiesta cognome
+// Prompt cognome
 const Surname = prompt('E il tuo cognome?');
 
 // Log cognome
 console.log(Surname);
 
-// Richiesta colore preferito
+// Prompt colore preferito
 const FavoredColor = prompt('Adesso dimmi il tuo colore preferito!');
 
 // Log colore preferito
 console.log(FavoredColor);
+
+// Log valori utente
+console.log(Name + Surname + FavoredColor + 21);
